@@ -394,8 +394,6 @@ int getCuit(char* pResultado, int longitud)
     return retorno;
 }
 
-
-
 /**
  * \brief Solicita un CUIT al usuario, luego de verificarlo devuelve el resultado
  * \param pResultado Puntero al espacio de memoria donde se dejara el resultado de la funcion

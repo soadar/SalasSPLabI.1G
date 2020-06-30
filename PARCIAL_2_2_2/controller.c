@@ -114,7 +114,13 @@ int controller_saveAsTextTipos(char* path, LinkedList* pArrayListBikers)
     return retorno;
 }
 
-
+/** \brief Guarda los datos de los bikers en archivo modo texto
+ *
+ * \param path char*
+ * \param pArrayListBikers LinkedList*
+ * \return int 1 si logro guardarlo, -1 en caso error
+ *
+ */
 int controller_saveAsText(char* path, LinkedList* pArrayListBikers)
 {
     int retorno=1;

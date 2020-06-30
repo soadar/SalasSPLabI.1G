@@ -566,6 +566,12 @@ int ll_count(LinkedList* this, int (*fn)(void* element))
 }
 
 
+/** \brief recibe una lista y se la pasa a pFunc, luego guarda los cambios en una lista nueva
+ * \param pList LinkedList* Puntero a la lista
+ * \param pFunc (*pFunc) Puntero a la funcion criterio
+ * \return listaFiltrada puntero a la nueva lista filtrada o NULL en caso de error
+                                ( 0) Si ok
+ */
 LinkedList* ll_map (LinkedList* this, void*(*pFunc) (void*))
 {
     LinkedList* listaFiltrada = NULL;
@@ -585,4 +591,3 @@ LinkedList* ll_map (LinkedList* this, void*(*pFunc) (void*))
     }
     return listaFiltrada;
 }
-
