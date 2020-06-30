@@ -72,7 +72,8 @@ int main()
                         listaFiltrada= ll_filter(listaBikes, filtrarPASEO);
                         break;
                 }
-                controller_saveAsText("Tipos.csv",listaFiltrada);
+                controller_saveAsText("tipos.csv",listaFiltrada);
+                printf("\nSe genero la lista filtrada en el archivo tipos.csv");
             }
             else
             {
