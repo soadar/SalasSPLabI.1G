@@ -84,8 +84,7 @@ int main()
             if (check == 1)
             {
                 listaTiempos=ll_clone(listaBikes);
-                ll_sort(listaTiempos,ordenXTiempo, 1);
-                ll_sort(listaTiempos,ordenXTipo, 1);
+                ll_sort(listaTiempos,ordenXTiempo, 0);
                 controller_listBikers(listaTiempos);
             }
             else
