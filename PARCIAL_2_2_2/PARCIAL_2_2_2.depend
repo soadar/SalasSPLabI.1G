@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1593478597 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"bicis.h"
+	"controller.h"
+
+1593478550 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+
+1593471709 d:\daro\utn\programacion\codeblocks\parcial_2_2_2\linkedlist.h
+
+1593447892 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1593447890 d:\daro\utn\programacion\codeblocks\parcial_2_2_2\utn.h
+
+1593478485 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\bicis.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"bicis.h"
+
+1593478132 d:\daro\utn\programacion\codeblocks\parcial_2_2_2\bicis.h
+
+1593477366 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\parser.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+	"bicis.h"
+
+1593477172 d:\daro\utn\programacion\codeblocks\parcial_2_2_2\parser.h
+
+1593477988 d:\daro\utn\programacion\codeblocks\parcial_2_2_2\controller.h
+
+1593478015 source:d:\daro\utn\programacion\codeblocks\parcial_2_2_2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"bicis.h"
+	"controller.h"
+	"parser.h"
+
